@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("../img/title-img.png");
+  
+    /* Half height */
+    height: 70%;  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.navbar{
+    background-color: rgb(237, 220, 153);
+    border: none;
+}
+  .nav-link{
+      font-size: 1rem;
+      font-weight: bold;
+      color:rgb(147, 25, 5) !important;
+      font-family: cursive;
+      /* -webkit-text-stroke: 0.8px rgb(246, 229, 159); */
+  }
+
+#title-card{
+  position: absolute;
+  left: 15px;
+  top: 80px;
+  /* padding: 2em 6em; */
+  background-color: rgba(255, 255, 255, 0.342);
+  box-shadow: 3px 3px rgba(147, 24, 5, 0.424);
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#title-card h2{
+  font-size: 3em !important;
+  color:rgb(237, 220, 153) !important;
+  -webkit-text-stroke: 0.8px rgb(147, 25, 5);
+}
+
+#about h1{
+  font-family: cursive;
+  color:rgb(147, 25, 5)
+}
+
+#aboutCard{
+  margin: auto;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
