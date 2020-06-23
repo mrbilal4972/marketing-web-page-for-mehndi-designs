@@ -42,8 +42,8 @@ body, html {
 
 #title-card h2{
   font-size: 3em !important;
-  color:rgb(237, 220, 153) !important;
-  -webkit-text-stroke: 0.8px rgb(147, 25, 5);
+  color:	rgb(146, 74, 39)!important;
+  -webkit-text-stroke: 1px 	rgb(235, 218, 164);
 }
 
 #about h1{
@@ -53,6 +53,10 @@ body, html {
 
 #aboutCard{
   margin: auto;
+}
+
+.cardImg{
+  object-fit: none;
 }
 
 .show{
